@@ -217,12 +217,13 @@ html ::-webkit-scrollbar{
 
 #product{
     width: 100%;
+    
 }
 .heading4{
     text-align: center;
     color: #dc8039;
     font-size: 40px;
-    padding-top: 150px;
+    padding-top: 80px;
     border-bottom: 4px solid #dc8039;
     font-weight: bold;
 }
