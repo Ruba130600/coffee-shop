@@ -223,7 +223,7 @@ html ::-webkit-scrollbar{
     text-align: center;
     color: #dc8039;
     font-size: 40px;
-    padding-top: 80px;
+    padding-top: 40px;
     border-bottom: 4px solid #dc8039;
     font-weight: bold;
 }
