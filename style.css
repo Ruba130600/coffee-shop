@@ -78,6 +78,13 @@ html ::-webkit-scrollbar{
     width: 100%;
     height: 100%;
     position: relative ;
+    filter: blur(90px);
+    filter: brightness(0.4);
+    filter: contrast(150%);
+    filter: drop-shadow(#ffff);
+
+
+
 }
 #home  .content #btn{
     text-align: center;
@@ -148,6 +155,7 @@ html ::-webkit-scrollbar{
 #top-cards{
     width: 100%;
     background: white;
+    
 
     
 }
@@ -217,13 +225,12 @@ html ::-webkit-scrollbar{
 
 #product{
     width: 100%;
-    
 }
 .heading4{
     text-align: center;
     color: #dc8039;
     font-size: 40px;
-    padding-top: 40px;
+    padding-top: 150px;
     border-bottom: 4px solid #dc8039;
     font-weight: bold;
 }
@@ -279,12 +286,11 @@ html ::-webkit-scrollbar{
 #contact{
     width: 100%;
     height: 100%;
-    padding-top: 70px;
     
 }
 #contact .container{
     width: 100%;
-    height: 80vh;
+    height: 100%;
     background: linear-gradient(98deg, white 80%,#dc8039 20%);
     border-radius: 10px;
 }
@@ -343,11 +349,9 @@ html ::-webkit-scrollbar{
         width: 100%;
         background: #ff7300;
         height: fit-content;
-        padding: 5px;
+        
     }
-    #contact{
-        height: 210vh;
-    }
+  
     
 }
 @media screen and (max-width:400px) {
@@ -360,7 +364,8 @@ html ::-webkit-scrollbar{
 
 #blogs{
     width: 100%;
-    margin-top:180px;
+    height: fit-content;
+   
     box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 24px ;
    
 }
@@ -458,8 +463,6 @@ html{
         display:none;
         font-size: medium;
     }
-
- 
     #navbar{
         background-color: rgb(255, 255, 255);
     }
@@ -475,16 +478,20 @@ html{
 
     }
     #about{
-        height: 120vh;
+        height: fit-content;
     }
 
     img{
         width: 100%;
         height: 50%;
     }
-    #top-cards{
-        padding-top: 120px;
+    #home video{
+        height: 120%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
     }
+   
 }
 
 
